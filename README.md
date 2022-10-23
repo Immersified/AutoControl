@@ -18,3 +18,6 @@ In this project, updates will be given about the progress with context and tough
 
 Optional:
 - Swap eth to wrapped eth after selling nft's to continue bidding
+
+The current priority is to obtain an API key. Preferably from Opensea but options like the x2y2, nftgo and compass would possibly do the job.
+If you have any reccomendations which one would be the best for our objectives, let it know :)
