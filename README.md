@@ -7,7 +7,7 @@ Where the main objective is to create a high bidding bot that buy's nft's and se
 With an OpenSea Scraper created on Windows Power Automate, Over 50000 data points have been collected from around 1600 collections on ones to bid. It's time to put this information to use. This is how one of the excel file look like: 
 ![image](https://user-images.githubusercontent.com/115187612/197599197-74fb091a-76f6-45ea-92f3-1be5d866f451.png)
 
-The data then gets filtered in [a relative link](Opensea Data Scraper filter.py)
+The data then gets filtered in [a link]([Opensea Data Scraper filter.py](https://github.com/Immersified/AutoControl/blob/main/Opensea%20Scraper%20Data%20Filter.py))
 A combination between Python and Windows power automate, a bot is created that automatically puts out collection offers. 
 It changes the offer price based on the floor price and bids on certain collections put in an excel sheet.
 
