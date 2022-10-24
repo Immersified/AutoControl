@@ -4,7 +4,10 @@ Automatic NFT bidder / lister on Opensea
 Durring the summer break, the development started on a system that automatically bids and list's nft's. AutoControl is the name given to it.
 Where the main objective is to create a high bidding bot that buy's nft's and sells them automatically for a tiny profit in high volume.
 
-Over 50000 data points have been collected from around 1600 collections on ones to bid. It's time to put this information to use. 
+With an OpenSea Scraper created on Windows Power Automate, Over 50000 data points have been collected from around 1600 collections on ones to bid. It's time to put this information to use. This is how one of the excel file look like: 
+![image](https://user-images.githubusercontent.com/115187612/197599197-74fb091a-76f6-45ea-92f3-1be5d866f451.png)
+
+
 A combination between Python and Windows power automate, a bot is created that automatically puts out collection offers. 
 It changes the offer price based on the floor price and bids on certain collections put in an excel sheet.
 
