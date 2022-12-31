@@ -1,6 +1,31 @@
 # AutoControl
 Automatic NFT bidder / lister on Opensea
 
+Project AutoControl develops an nft trading bot that automatically buys and sells nft's. Creating an environment where passive income is generated. The first version works in two stages:
+- The bidding bot itself
+- Data scraper to update collections
+
+## The bidding bot:
+
+A combination between Python and Windows power automate is used to create a bidding bot. Which automatically puts out collection offers. 
+It changes the offer price based on the floor price and bids on certain collections put in an excel sheet.
+First, an excel sheet with the collections get's created|:
+
+![image](https://user-images.githubusercontent.com/115187612/197603927-48edea0b-7f75-4a2c-a6e9-3f8dff0ee253.png) 
+
+Notice how the floor and bid price columns are empty. Those will be filled up with the code from: ([Bidding estimations.py](https://github.com/Immersified/AutoControl/blob/main/Bidding%20estimations.py)) 
+Which includes a formula the user can edit. The end result would be a file such as: 
+
+![image](https://user-images.githubusercontent.com/115187612/197606901-a6b5d79e-2ef6-41c2-83af-b9f058a12f68.png)
+
+This file get's send to the Windows Power Automate bot which places the bids on collections. The following pseudo code is used for the bot:
+
+![Untitled Diagram drawio (12)](https://user-images.githubusercontent.com/115187612/210140890-89609c38-e826-4b43-958b-f4e38dddbf33.png)
+
+## Data scraper to update collections
+
+Due to market circumstances, it's mandatory to update collections the bot bids on. First, an analysys of the current bidding collections needs to be obtained. Which is done by the 
+
 Durring the summer break, the development started on a system that automatically bids and list's nft's. AutoControl is the name given to it.
 Where the main objective is to create a high bidding bot that buy's nft's and sells them automatically for a tiny profit in high volume.
 
