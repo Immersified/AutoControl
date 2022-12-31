@@ -89,7 +89,7 @@ The new version will have the following features:
 
 A new language is intorduced for the bot which is Javascript to enable writing of collection offers and in the future, listing nft's. This also enables easier connection to an online or offline interface people can use to manage the bot. This also applies when connecting the bot to an nft collection who users can access the bot through. 
 
-Inorder to use the bot, the command prompt is used. First the user has to direct to the folder of the bot. Which is done by the code: cd <Bidding bot script directory>. Next up: yarn install is written to install the needed packages to use the bot. Finally the following command is used to start the bot: yarn start -p <private key> -a <api key> -l <bidding links excel>
+Inorder to use the bot, the command prompt is used. First the user has to direct to the folder of the bot. Which is done by the code: cd [Bidding bot script] directory>. Next up: yarn install is written to install the needed packages to use the bot. Finally the following command is used to start the bot: yarn start -p [private key] -a [api key] -l [bidding links excel]
 
 ### Issues and Security
 
