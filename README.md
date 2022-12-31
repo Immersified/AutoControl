@@ -1,5 +1,5 @@
 # AutoControl
-Automatic NFT bidder / lister on Opensea
+Automatic NFT bidder / lister
 
 Project AutoControl develops an nft trading bot that automatically buys and sells nft's. Creating an environment where passive income is generated. The following subjects will be discussed:
 * Bidding bot statistics
@@ -52,7 +52,7 @@ This file gets sent to the Windows Power Automate bot which places the bids on c
 
 ### Bidding bot Issues:
 
-The current bidding bot does not use the api of Opensea to write collection offers. Which results in the speed of collection offers being only one per 40 seconds. Improving this is needed to enable users to bid on much more collections. Meaning much more potential to make a profit. Moreover, it uses two programs to run the system which is too complicated for a non-experienced user. Another downside is the lack of automatic listing once an nft is purchased. Which is impossible to develop in the current setup. The bot also needs a virtual machine or separate computer to keep it running 24/7. At last, the uptime of the bidding bot is too low due to errors often congesting the process.
+The current bidding bot does not use the api of Opensea to write collection offers. Which results in the speed of collection offers being only one per 40 seconds. Improving this is needed to enable users to bid on much more collections. Meaning much more potential to make a profit. To improve diversity, the bot needs to create collection offers on other marketplaces other then Opensea such as Blur. This will increase volume considerably. Moreover, it uses two programs to run the system which is too complicated for a non-experienced user. Another downside is the lack of automatic listing once an nft is purchased. Which is impossible to develop in the current setup. The bot also needs a virtual machine or separate computer to keep it running 24/7. At last, the uptime of the bidding bot is too low due to errors often congesting the process.
 
 ## Data scraper
 
